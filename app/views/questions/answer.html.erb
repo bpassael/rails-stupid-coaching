@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div id="quotequestion" class="quote col-4 mt-3 pt-2">
+      <p><%= @question %></p>
+      <p><em>- You</em></p>
+   </div>
+  </div>
+  <div class="row">
+    <div id="quoteanswer" class="quote col-4 mt-2 pt-2">
+      <p><%= @answer %></p>
+      <p><em>- Your coach</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="m-3">
+<%= link_to "Ask a new question", ask_path %>
+</div>
